@@ -1,0 +1,39 @@
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn{
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 5px;
+    border: 0;
+    background-color: rgb(58, 58, 58);
+    cursor: pointer;
+    color: white;
+}
+
+.bt{
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #000;
+    background-color: white;
+}
+
+.btn:hover{
+    color: #000;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btnn{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 20px;
+}
