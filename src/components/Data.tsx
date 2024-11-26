@@ -42,11 +42,6 @@ export default function Data(){
             <section>
                 <div><b className={style.b}>演出者{name}</b></div>
                 <div className={style.songCard}>
-                    {/* <div className={style.cardimg}>
-                        <img src="https://picsum.photos/500?random=10" alt=""className={style.cardimg}/>
-                    </div>
-                    <div><p>最愛...{name}</p></div>
-                    <div><p className={style.act}>{act}</p></div> */}
                     <Card imgUrl="https://picsum.photos/500?random=10" title="最愛...周杰倫" act="擁有者:Spotify"/>
                     <Card imgUrl="https://picsum.photos/500?random=11" title="最愛...周杰倫" act="擁有者:Spotify"/>
                     <Card imgUrl="https://picsum.photos/500?random=12" title="最愛...周杰倫" act="擁有者:Spotify"/>
